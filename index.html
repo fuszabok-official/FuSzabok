@@ -126,22 +126,25 @@ nav{padding:0 0 0 8px}
 @media(max-width:480px){
 .nm a{padding:0 8px;font-size:10px}
 }
+@media(max-width:700px){
+.awy-kep-grid{grid-template-columns:1fr !important;gap:24px !important}
+}
 </style>
 </head>
 <body>
 
 <nav>
-  <a class="nl" href="#" onclick="showPage('home');return false;">
+  <a class="nl" href="#fooldal" onclick="showPage('home');return false;">
     <img src="data:image/jpeg;base64,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" alt="FűSzabók logó">
     <span class="nl-t">Fű<span>Szabók</span></span>
   </a>
   <div class="nm">
-    <a onclick="showPage('home')" id="nav-home" class="active">Főoldal</a>
-    <a onclick="showPage('machines')" id="nav-machines">Gépek</a>
-    <a onclick="showPage('about')" id="nav-about">Rólunk</a>
-    <a onclick="showPage('contact')" id="nav-contact">Kapcsolat</a>
-    <a onclick="showPage('landing')" id="nav-landing" style="color:#e8a800;font-weight:700">AWY-550</a>
-    <a onclick="showPage('bermunka')" id="nav-bermunka" style="color:#e8a800;font-weight:700">Bérmunka</a>
+    <a href="#fooldal" onclick="showPage('home');return false;" id="nav-home" class="active">Főoldal</a>
+    <a href="#gepek" onclick="showPage('machines');return false;" id="nav-machines">Gépek</a>
+    <a href="#rolunk" onclick="showPage('about');return false;" id="nav-about">Rólunk</a>
+    <a href="#kapcsolat" onclick="showPage('contact');return false;" id="nav-contact">Kapcsolat</a>
+    <a href="#awy-550" onclick="showPage('landing');return false;" id="nav-landing" style="color:#e8a800;font-weight:700">AWY-550</a>
+    <a href="#bermunka" onclick="showPage('bermunka');return false;" id="nav-bermunka" style="color:#e8a800;font-weight:700">Bérmunka</a>
   </div>
 </nav>
 
@@ -402,7 +405,7 @@ nav{padding:0 0 0 8px}
 
   <!-- Kép + ár -->
   <section style="background:var(--cr);padding:52px 2rem">
-    <div style="max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center">
+    <div class="awy-kep-grid" style="max-width:1000px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center">
       <div style="position:relative;border-radius:16px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,.12)">
         <!-- Gallery images -->
         <div id="awy-gallery" style="position:relative;overflow:hidden;line-height:0">
@@ -939,7 +942,17 @@ function showPage(id){
   var el=document.getElementById('nav-'+id);
   if(el) el.classList.add('active');
   window.scrollTo(0,0);
+  var hashMap={home:'fooldal',machines:'gepek',about:'rolunk',contact:'kapcsolat',landing:'awy-550',bermunka:'bermunka'};
+  if(hashMap[id]) try{history.replaceState(null,null,'#'+hashMap[id]);}catch(e){}
 }
+function loadFromHash(){
+  var hash=window.location.hash.replace('#','');
+  var pageMap={fooldal:'home',gepek:'machines',rolunk:'about',kapcsolat:'contact','awy-550':'landing',bermunka:'bermunka'};
+  var page=pageMap[hash]||'home';
+  showPage(page);
+}
+window.addEventListener('DOMContentLoaded',loadFromHash);
+window.addEventListener('hashchange',function(){loadFromHash();});
 
 var awyIdx = 0;
 var awyTotal = 4;
